@@ -103,7 +103,14 @@ func serve(cmd *cobra.Command, args []string) error {
 		return fmt.Errorf("failed to register Go runtime metrics: %v", err)
 	}
 
-	err = prometheusRegistry.Register(prometheus.NewProcessCollector(os.Getpid(), ""))
+	// @patch cjimti added for new prometheus compatibility
+	pidFn := func() (int, error) {
+		return os.Getpid(), nil
+	}
+
+	err = prometheusRegistry.Register(prometheus.NewProcessCollector(prometheus.ProcessCollectorOpts{
+		PidFn: pidFn,
+	}))
 	if err != nil {
 		return fmt.Errorf("failed to register process metrics: %v", err)
 	}
