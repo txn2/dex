@@ -2,7 +2,7 @@
 
 WIP: Custom login and [txn2/auth](https://github.com/txn2/auth) connector.
 
-**NOTE** if you are looking for [dex] - A federated OpenID Connect provider use the upstream [dex] project at: https://github.com/dexidp/dex/.
+**NOTE** if you are looking for [dex] - A federated OpenID Connect provider, use the upstream [dex] project at: https://github.com/dexidp/dex/.
 
 [dex]: https://github.com/dexidp/dex/
 
