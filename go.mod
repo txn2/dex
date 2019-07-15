@@ -9,7 +9,6 @@ require (
 	github.com/coreos/go-semver v0.2.0 // indirect
 	github.com/coreos/go-systemd v0.0.0-20181031085051-9002847aa142 // indirect
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
-	github.com/davecgh/go-spew v1.1.1
 	github.com/felixge/httpsnoop v1.0.0
 	github.com/ghodss/yaml v0.0.0-20161020005002-bea76d6a4713
 	github.com/gogo/protobuf v1.1.1 // indirect
