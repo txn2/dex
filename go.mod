@@ -35,7 +35,7 @@ require (
 	github.com/spf13/cobra v0.0.0-20160615143614-bc81c21bd0d8
 	github.com/spf13/pflag v0.0.0-20160610190902-367864438f1b // indirect
 	github.com/stretchr/testify v1.3.0
-	github.com/txn2/provision v0.3.3
+	github.com/txn2/provision v0.4.2
 	github.com/xiang90/probing v0.0.0-20160813154853-07dd2e8dfe18 // indirect
 	golang.org/x/crypto v0.0.0-20190611184440-5c40567a22f8
 	golang.org/x/lint v0.0.0-20181026193005-c67002cb31c3
